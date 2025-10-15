@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(66, 37, 37);
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+nav ul li,
+nav div p {
+  display: inline-block;
+  margin: auto 5px;
+}
